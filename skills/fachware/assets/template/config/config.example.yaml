@@ -1,0 +1,18 @@
+# Konfiguration – wird in Phase 2 vom Agenten geschrieben.
+# Begründungen zu jeder Entscheidung: siehe ../CONFIG.md
+
+tool:
+  name: ""            # Name des Werkzeugs
+  owner: ""           # fachlich verantwortliche Person
+
+sources: []           # Quellsysteme, je Eintrag:
+                      #   system: ""        # z. B. Wissens- oder Ticketsystem
+                      #   zweck: ""         # wofür diese Quelle dient
+                      #   referenz: ""      # eindeutige Referenz (ID, Pfad, Query)
+                      #   zugriff: lesend   # lesend | schreibend
+
+output:
+  format: ""          # z. B. Seite, Datei, Nachricht
+  target: ""          # wohin das Ergebnis geht
+
+schedule: ""          # Rhythmus (informativ; die Ausführung bleibt lokal)

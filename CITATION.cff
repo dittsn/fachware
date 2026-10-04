@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Bitte bei Weiterverwendung so zitieren. / Please cite this work as below."
+title: "Fachware – ein Muster für Fachwerkzeuge"
+type: software
+authors:
+  - family-names: Dittmann
+    given-names: Sebastian
+date-released: 2026-10-03
+version: 0.5.0
+url: "https://github.com/dittsn/fachware"
+abstract: "Muster für die Auslieferung hochgradig individualisierter Fachwerkzeuge: als Git-Repository für Coding-Harnesses, installiert über ein rein fachliches Gespräch, betrieben lokal mit lokaler Vertrauensgrenze."
+keywords:
+  - fachware
+  - software delivery
+  - coding agents
+  - end-user computing
+license: MIT

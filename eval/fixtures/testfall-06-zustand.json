@@ -1,0 +1,1513 @@
+{
+ "counter": 24,
+ "issues": [
+  {
+   "id": "10013",
+   "key": "TEST-13",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-13",
+   "summary": "[fakedata] 01 Passwort zurücksetzen per E-Mail-Link",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Passwort zurücksetzen per E-Mail-Link. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Passwort zurücksetzen per E-Mail-Link« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "3 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Passwort zurücksetzen per E-Mail-Link« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10014",
+   "key": "TEST-14",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-14",
+   "summary": "[fakedata] 02 Bestellhistorie als CSV exportieren",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Bestellhistorie als CSV exportieren. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Bestellhistorie als CSV exportieren« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "5 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Bestellhistorie als CSV exportieren« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10015",
+   "key": "TEST-15",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-15",
+   "summary": "[fakedata] 03 Profilbild hochladen und zuschneiden",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Profilbild hochladen und zuschneiden. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Profilbild hochladen und zuschneiden« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "3 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Profilbild hochladen und zuschneiden« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10016",
+   "key": "TEST-16",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-16",
+   "summary": "[fakedata] 04 Suchergebnisse nach Datum filtern",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Suchergebnisse nach Datum filtern. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Suchergebnisse nach Datum filtern« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "2 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Suchergebnisse nach Datum filtern« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10017",
+   "key": "TEST-17",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-17",
+   "summary": "[fakedata] 05 Benachrichtigung bei Statuswechsel",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Benachrichtigung bei Statuswechsel. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Benachrichtigung bei Statuswechsel« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "5 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Benachrichtigung bei Statuswechsel« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10018",
+   "key": "TEST-18",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-18",
+   "summary": "[fakedata] 06 Warenkorb über Sitzungen hinweg speichern",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Warenkorb über Sitzungen hinweg speichern. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "8 Story Points"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Warenkorb über Sitzungen hinweg speichern« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10019",
+   "key": "TEST-19",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-19",
+   "summary": "[fakedata] 07 Rechnungsadresse getrennt von Lieferadresse",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Rechnungsadresse getrennt von Lieferadresse. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Rechnungsadresse getrennt von Lieferadresse« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Rechnungsadresse getrennt von Lieferadresse« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10020",
+   "key": "TEST-20",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-20",
+   "summary": "[fakedata] 08 Zwei-Faktor-Anmeldung per App",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Zwei-Faktor-Anmeldung per App. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Zwei-Faktor-Anmeldung per App« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "8 Story Points"
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10021",
+   "key": "TEST-21",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-21",
+   "summary": "[fakedata] 09 Mehrsprachige Fehlermeldungen",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Mehrsprachige Fehlermeldungen. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Testvorgehen"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Mit einem Testkonto anmelden."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "»Mehrsprachige Fehlermeldungen« einmal im Normalfall und einmal mit ungültiger Eingabe durchspielen."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Ergebnis mit den Akzeptanzkriterien abgleichen."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10022",
+   "key": "TEST-22",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-22",
+   "summary": "[fakedata] 10 Lesezeichen für Artikel",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Lesezeichen für Artikel. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Schätzung"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "2 Story Points"
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10023",
+   "key": "TEST-23",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-23",
+   "summary": "[fakedata] 11 Konto selbst löschen",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Konto selbst löschen. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "attrs": {
+       "level": 2
+      },
+      "content": [
+       {
+        "type": "text",
+        "text": "Akzeptanzkriterien"
+       }
+      ]
+     },
+     {
+      "type": "bulletList",
+      "content": [
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Funktion »Konto selbst löschen« ist für angemeldete Nutzer erreichbar."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Fehlerfälle werden mit einer verständlichen Meldung angezeigt."
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "listItem",
+        "content": [
+         {
+          "type": "paragraph",
+          "content": [
+           {
+            "type": "text",
+            "text": "Die Änderung ist nach dem Neuladen der Seite weiterhin sichtbar."
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  },
+  {
+   "id": "10024",
+   "key": "TEST-24",
+   "self": "http://127.0.0.1:39883/rest/api/3/issue/TEST-24",
+   "summary": "[fakedata] 12 Dunkles Farbschema",
+   "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Als Nutzerin möchte ich: Dunkles Farbschema. (Testdatensatz, erzeugt von dor-fixtures.)"
+       }
+      ]
+     }
+    ]
+   },
+   "labels": [
+    "fakedata"
+   ],
+   "issuetype": {
+    "id": "10001",
+    "name": "Story",
+    "subtask": false
+   },
+   "status": "To Do",
+   "created_str": "2026-01-01T00:00:00.000+0000",
+   "updated_str": "2026-01-01T00:00:00.000+0000",
+   "extra": {}
+  }
+ ]
+}
