@@ -4,10 +4,31 @@
       {
         "matcher": "Bash",
         "hooks": [
-          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/secrets-guard.py" },
-          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/tag-guard.py" }
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/secrets-guard.py"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/tag-guard.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Grep|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/secrets-guard.py"
+          }
         ]
       }
+    ]
+  },
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(**/.env)"
     ]
   }
 }

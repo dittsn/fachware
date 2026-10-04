@@ -14,9 +14,27 @@ import sys
 
 try:
     aufruf = json.load(sys.stdin)
-    befehl = aufruf.get("tool_input", {}).get("command", "")
+    werkzeug = aufruf.get("tool_name", "")
+    eingabe = aufruf.get("tool_input", {}) or {}
+    befehl = eingabe.get("command", "")
 except Exception:
     sys.exit(0)  # kaputte Eingabe blockiert nichts
+
+# 0. Eingebaute Lese- und Schreibwerkzeuge des Harness (Read, Grep, Edit, Write):
+#    kein Zugriff auf Secret-Dateien – der Inhalt würde sonst in den Kontext und damit
+#    zum Modellanbieter wandern. Das Werkzeug selbst liest die .env zur Laufzeit; der
+#    Agent braucht nur die Variablennamen aus .env.example.
+if werkzeug and werkzeug != "Bash":
+    pfade = [str(eingabe.get(k, "")) for k in ("file_path", "path", "notebook_path")]
+    for pfad in pfade:
+        name = pfad.replace("\\", "/").rstrip("/").split("/")[-1]
+        if name and re.fullmatch(r"\.env(?!\.example)[.\w-]*", name):
+            print("Blockiert: Secret-Dateien werden mit keinem Werkzeug gelesen oder "
+                  "bearbeitet – auch nicht mit den eingebauten. Die Variablennamen stehen "
+                  "in .env.example; die Werte liest das Werkzeug selbst zur Laufzeit. "
+                  "Siehe AGENTS.md, Regel »Secrets«.", file=sys.stderr)
+            sys.exit(2)
+    sys.exit(0)
 
 
 def ziel_repo(git_argumente):
@@ -64,7 +82,7 @@ m_add = re.search(r'\bgit\b([^|;&\n]*)\badd\b([^|;&\n]*)', befehl)
 if m_add:
     if re.search(SECRET, m_add.group(2)):
         print("Blockiert: .env-Dateien werden nicht committet – sie stehen in .gitignore. "
-              "Siehe spec/governance.md, Sicherheits-Baseline.", file=sys.stderr)
+              "Siehe AGENTS.md, Regel »Secrets«.", file=sys.stderr)
         sys.exit(2)
     if re.search(r'(^|\s)(\.|-A|--all|:/)(\s|$)', m_add.group(2)):
         ziel = ziel_repo(m_add.group(1))
